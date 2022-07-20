@@ -1,0 +1,50 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #0000008f;
+    background-color: #b7edff;
+  
+}
+
+h1:not(.numero) {
+    border-bottom: 2px solid lightcoral;
+}
+
+.numero {
+    color: lightcoral;
+}
+
+.area-botao { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 20rem;
+}
+
+.area-botao label {
+
+    text-transform: uppercase;
+
+}
+
+.area-botao button {
+
+    background-color: lightcoral;
+    display: list-item;
+    padding: 10px;
+    width: 50%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
